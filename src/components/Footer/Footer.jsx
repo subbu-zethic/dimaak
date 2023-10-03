@@ -13,7 +13,7 @@ import dimaak from "/public/images/svg/dimaak-logo-small.svg";
 
 const Footer = () => {
   return (
-    <div className="flex flex-col gap-[50px] bg-[#1D1B1B] p-[72px]">
+    <div className="flex flex-col gap-[50px] bg-[#1D1B1B] p-[72px] pt-[140px]">
       <div className="bg-[#FF6737] flex justify-around items-center rounded-[14px] p-[15px]">
         <div className="flex flex-col gap-[18.25px]">
           <p className="text-[#FFF] text-4xl font-bold leading-[120%] tracking-[-0.144px] max-w-[320px]">

@@ -63,9 +63,13 @@ const Popular = () => {
                   width: "241px",
                 }}
               >
-                <div className="flex flex-col items-center">
-                  <p>{destination.place}</p>
-                  <p>{destination.price}</p>
+                <div className="flex flex-col justify-end items-center h-[100%]">
+                  <p className="text-[#FFF] text-[34px] font-normal leading-[150%] tracking-[0.204px]">
+                    {destination.place}
+                  </p>
+                  <p className="text-[#FFF] text-[16.244px] font-normal leading-[150%] tracking-[0.097px] px-[38px] text-center">
+                    {destination.price}
+                  </p>
                 </div>
               </div>
             );

@@ -8,6 +8,7 @@ import Navbar from "@/components/Navbar/Navbar";
 import PackagesTheme from "@/components/PackagesTheme/PackagesTheme";
 import Plan from "@/components/Plan/Plan";
 import Popular from "@/components/Popular/Popular";
+import ViewMore from "@/components/ViewMore/ViewMore";
 
 export default function Home() {
   return (
@@ -19,8 +20,9 @@ export default function Home() {
       <PackagesTheme />
       <Feedback />
       <BudgetFriendly />
-      {/* <Expert /> */}
+      <Expert />
       <HandPicked />
+      <ViewMore />
       <Footer />
     </>
   );

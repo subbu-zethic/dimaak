@@ -5,7 +5,6 @@ import whatsappLogo from "/public/images/svg/whatsapp.svg";
 import Link from "next/link";
 
 import arrow from "/public/images/svg/arrow-down.svg";
-// import whatsappLogo from "/public/images/svg/whatsapp.svg";
 import location from "/public/images/svg/location.svg";
 import tickSquare from "/public/images/svg/tick-square.svg";
 import calendar from "/public/images/svg/calendar.svg";
@@ -13,7 +12,6 @@ import dropDown from "/public/images/svg/drop-down.svg";
 import ecllipse from "/public/images/svg/eclipse.svg";
 import rectangle from "/public/images/svg/rectangle.svg";
 import "./Navbar.style.css";
-// import scenic from "/public/images/svg/Scenic.svg";
 
 const Navbar = () => {
   return (
@@ -24,6 +22,8 @@ const Navbar = () => {
         flexDirection: "column",
         gap: "2rem",
         paddingBottom: "4rem",
+        backgroundRepeat: "no-repeat",
+        backgroundSize: "cover",
       }}
     >
       <header className="w-full px-14 py-2 text-[#FFF]">

@@ -24,9 +24,13 @@ const BudgetFriendly = () => {
                 height: "245px",
               }}
             >
-              <div>
-                <p>Thailand</p>
-                <p>Starting from $14,000 Per Person</p>
+              <div className="flex flex-col justify-end h-[90%]">
+                <p className="text-[#FFF] text-[38px] font-normal leading-[150%] tracking-[0.228px] px-[27px]">
+                  Thailand
+                </p>
+                <p className="text-[#FFF] text-[16.244px] font-normal leading-[150%] tracking-[-0.065px] px-[30px]">
+                  Starting from $14,000 Per Person
+                </p>
               </div>
             </div>
             <div
@@ -36,9 +40,13 @@ const BudgetFriendly = () => {
                 height: "245px",
               }}
             >
-              <div>
-                <p>Bali</p>
-                <p>Starting from $14,000 Per Person</p>
+              <div className="flex flex-col justify-end h-[90%]">
+                <p className="text-[#FFF] text-[38px] font-normal leading-[150%] tracking-[0.228px] px-[27px]">
+                  Bali
+                </p>
+                <p className="text-[#FFF] text-[16.244px] font-normal leading-[150%] tracking-[-0.065px] px-[30px]">
+                  Starting from $14,000 Per Person
+                </p>
               </div>
             </div>
           </div>
@@ -50,9 +58,13 @@ const BudgetFriendly = () => {
                 height: "519px",
               }}
             >
-              <div>
-                <p>Singapore</p>
-                <p>Starting from $14,000 Per Person</p>
+              <div className="flex flex-col justify-end h-[95%]">
+                <p className="text-[#FFF] text-[38px] font-normal leading-[150%] tracking-[0.228px] px-[27px]">
+                  Singapore
+                </p>
+                <p className="text-[#FFF] text-[16.244px] font-normal leading-[150%] tracking-[-0.065px] px-[30px]">
+                  Starting from $14,000 Per Person
+                </p>
               </div>
             </div>
           </div>
@@ -64,9 +76,13 @@ const BudgetFriendly = () => {
                 height: "245px",
               }}
             >
-              <div>
-                <p>Maldives</p>
-                <p>Starting from $14,000 Per Person</p>
+              <div className="flex flex-col justify-end h-[90%]">
+                <p className="text-[#FFF] text-[38px] font-normal leading-[150%] tracking-[0.228px] px-[27px]">
+                  Maldives
+                </p>
+                <p className="text-[#FFF] text-[16.244px] font-normal leading-[150%] tracking-[-0.065px] px-[30px]">
+                  Starting from $14,000 Per Person
+                </p>
               </div>
             </div>
             <div
@@ -76,9 +92,13 @@ const BudgetFriendly = () => {
                 height: "245px",
               }}
             >
-              <div>
-                <p>Dubai</p>
-                <p>Starting from $14,000 Per Person</p>
+              <div className="flex flex-col justify-end h-[90%]">
+                <p className="text-[#FFF] text-[38px] font-normal leading-[150%] tracking-[0.228px] px-[27px]">
+                  Dubai
+                </p>
+                <p className="text-[#FFF] text-[16.244px] font-normal leading-[150%] tracking-[-0.065px] px-[30px]">
+                  Starting from $14,000 Per Person
+                </p>
               </div>
             </div>
           </div>
